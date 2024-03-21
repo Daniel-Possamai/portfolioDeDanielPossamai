@@ -2,3 +2,9 @@ html{
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
 }
+
+body{
+    background-color: #000;
+    height: 100vh;
+}
+
