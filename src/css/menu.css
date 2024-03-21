@@ -8,6 +8,7 @@ header a{
     color: #737373;
     display: inline-block;
     transition: .2s;
+    font-weight: 700;
 }
 
 header a:hover{
@@ -26,7 +27,7 @@ header{
 
 header nav ul li{
     display: inline-block;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 header > .interface{
@@ -44,4 +45,8 @@ header .btnContato button{
     border-radius: 30px;
     cursor: pointer;
     color: #fff;
+}
+
+header .btnContato button:hover{
+    box-shadow: 0px 0px 8px #ff050589;
 }
