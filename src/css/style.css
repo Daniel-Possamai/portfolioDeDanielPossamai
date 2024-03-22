@@ -8,3 +8,74 @@ body{
     height: 100vh;
 }
 
+.flex{
+    display: flex;
+}
+
+.btnContato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #FF0505;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #000;
+    transition: .2s;
+}
+
+.btnContato button:hover{
+    color: #fff;
+    box-shadow: 0px 0px 8px #ff050589;
+    transform: scale(1.05);
+}
+
+
+/* Sobre */
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.sobre h1{
+    color: #fff;
+    font-size: 38px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.sobre .txtSobre h1 span{
+    color: #FF0505;
+    font-size: 45px;
+}
+
+.sobre .txtSobre p{
+    color: #fff;
+    font-size: 18px;
+    margin: 7px 0px;
+
+}
+
+.sobre .txtSobre button{
+    margin-top: 30px;
+}
+
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.sobre .imgSobre{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
