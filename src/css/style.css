@@ -26,8 +26,18 @@ body{
 
 .btnContato button:hover{
     color: #fff;
-    box-shadow: 0px 0px 8px #ff050589;
+    box-shadow: 0px 0px 12px #ff050589;
     transform: scale(1.05);
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #FF0505;
 }
 
 
@@ -59,6 +69,9 @@ section.sobre .flex{
     color: #fff;
     font-size: 18px;
     margin: 7px 0px;
+    max-width: 600px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
 
 }
 
@@ -78,4 +91,58 @@ section.sobre .flex{
 .sobre .imgSobre{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+/* CONHECIMENTOS */
+
+section.conhecimentos{
+    padding: 40px 4%;
+}
+
+section.conhecimentos .flex{
+    gap: 60px;
+}
+
+.conhecimentos .conhecimentosBox{
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 35px;
+    transition: .2s;
+}
+
+.conhecimentos .conhecimentosBox:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff2f;
+}
+
+.conhecimentos .conhecimentosBox p{
+    text-align: justify;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.conhecimentos .conhecimentosBox h3{
+    font-size: 26px;
+    margin: 15px 0;
+}
+
+
+.conhecimentos .conhecimentosBox i{
+    font-size: 90px;
+}
+
+.conhecimentos .conhecimentosBox .fa-html5{
+    color: #ff5a08;
+}
+
+.conhecimentos .conhecimentosBox .fa-js{
+    color: #ffd014;
+}
+
+.conhecimentos .conhecimentosBox .fa-css3-alt{
+    color: #0867ff;
 }
