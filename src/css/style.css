@@ -275,3 +275,69 @@ footer .lineFooter p a{
     color: #fff;
     text-decoration: none;
 }
+
+/* Responsivo */
+
+@media screen and (max-width: 1020px){
+    /* Classes gerais */
+    .flex{
+        flex-direction: column;
+    }
+
+
+
+    /* Cabeçalho */
+    .menuDesktop, .btnContato{
+        display: none;
+    }
+
+    /* Sobre do site */
+    .sobre h1{
+        font-size: 28px;
+    }
+
+    section.sobre{
+        padding: 20px 5%;
+    }
+
+    .imgSobre img{
+        width: 100%;
+    }
+
+    section.sobre .flex{
+        gap: 40px;
+    }
+
+    /* Conhecimentos */
+
+    section.conhecimentos{
+        padding: 40px 5%;
+    }
+
+    section.conhecimentos .flex{
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .conhecimentos .conhecimentosBox{
+        width: 300px;
+        height: 350px;
+    }
+
+    /* Meus Projetos */
+
+    section.projetos{
+        padding: 40px 5%;
+    }
+
+    section.projetos .flex{
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+}
