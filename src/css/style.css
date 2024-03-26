@@ -115,9 +115,14 @@ section.conhecimentos{
 
 section.conhecimentos .flex{
     gap: 60px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
+
 .conhecimentos .conhecimentosBox{
+    width: 250px;
+    height: 400px;
     color: #fff;
     padding: 40px;
     text-align: center;
@@ -210,4 +215,16 @@ section.projetos .interface h2{
 
 .overlay:hover{
     opacity: 1;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 30px;
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff10;
+}
+
+footer .flex{
+    justify-content: space-between;
 }
