@@ -227,6 +227,15 @@ footer{
 
 footer .flex{
     justify-content: space-between;
+    align-items: center;
+}
+
+footer .lineFooter{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #FF0505;
 }
 
 footer .btnSocial button{
@@ -253,4 +262,13 @@ footer .logoFooter{
 footer .logoFooter:hover{
     cursor: pointer;
     transform: scale(1.05);
+}
+
+footer .lineFooter p i{
+    color: #FF0505;
+    font-size: 20px;
+}
+
+footer .lineFooter p a{
+    color: #fff;
 }
