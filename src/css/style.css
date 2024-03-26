@@ -228,3 +228,29 @@ footer{
 footer .flex{
     justify-content: space-between;
 }
+
+footer .btnSocial button{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF0505;
+    transition: .2s;
+}
+
+footer .btnSocial button:hover{
+    color: #fff;
+    box-shadow: 0px 0px 12px #ff050589;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer .logoFooter{
+    transition: .2s;
+}
+
+footer .logoFooter:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
