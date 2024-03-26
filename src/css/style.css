@@ -340,4 +340,11 @@ footer .lineFooter p a{
         gap: 10px;
     }
 
+    /* Footer */
+    
+    footer{
+        padding: 5px 4%;
+    }
+
+
 }
