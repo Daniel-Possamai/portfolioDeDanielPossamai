@@ -278,6 +278,12 @@ footer .lineFooter p a{
 
 /* Responsivo */
 
+@media screen and (min-width: 1021px) {
+    .btnAbrirMenu{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1020px){
     /* Classes gerais */
     .flex{
@@ -346,5 +352,7 @@ footer .lineFooter p a{
         padding: 5px 4%;
     }
 
-
+    .lineFooter p{
+        font-size: 14px;
+    }
 }
