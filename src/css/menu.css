@@ -64,19 +64,19 @@ header > .interface{
 .menuMobile{
     background-color: #000;
     height: 100vh;
-    border-left: 2px solid #ff050557;
     border-radius: 50px 0 0 50px;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 9999;
-    width: 0%;
+    width: 0;
     overflow: hidden;
     transition: 0.5s;
 }
 
 .menuMobile.openMenu{
     width: 60%;
+    border-left: 2px solid #ff050557;
 }
 
 .menuMobile.openMenu ~ .overlayMenu{
