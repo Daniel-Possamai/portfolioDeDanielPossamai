@@ -3,6 +3,14 @@
     margin: 0 auto;
 }
 
+header .logo{
+    transition: .2s;
+}
+
+header .logo:hover{
+    transform: scale(1.05);
+}
+
 header nav.menuDesktop a{
     text-decoration: none;
     color: #4f4f4f;

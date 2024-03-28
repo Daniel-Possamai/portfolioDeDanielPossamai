@@ -196,6 +196,8 @@ section.projetos .interface h2{
 }
 
 .overlay{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 0;
     left: 0;
@@ -211,6 +213,14 @@ section.projetos .interface h2{
     color: #fff;
     opacity: 0;
     transition: 0.4s;
+}
+
+.overlay a{
+    font-size: 16px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-style: oblique;
 }
 
 .overlay:hover{

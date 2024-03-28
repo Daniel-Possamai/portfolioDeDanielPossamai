@@ -9,26 +9,27 @@
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/reset.css">
     <link rel="stylesheet" href="/src/css/menu.css">
+    <link rel="shortcut icon" href="src/images/codeSolid.svg" type="image/x-icon">
     <title>Portfolio Daniel Possamai</title>
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <div class="interface">
             <div class="logo">
-                <a href="#">
+                <a href="#inicio">
                     <img src="/src/images/logoPortfolio.png" alt="Logo com o nome">
                 </a>
             </div>
             <nav class="menuDesktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Conhecimentos</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#conhecimentos">Conhecimentos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
             <div class="btnContato">
-                <a href="#">
+                <a href="#footer">
                     <button>Contato</button>
                 </a>
             </div>
@@ -44,9 +45,9 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Conhecimentos</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#conhecimentos">Conhecimentos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
@@ -59,7 +60,7 @@
     </header>
 
     <main>
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="sobreInterface">
                 <div class="flex">
                     <div class="imgSobre">
@@ -79,7 +80,7 @@
             </div>
         </section>
 
-        <section class="conhecimentos">
+        <section class="conhecimentos" id="conhecimentos">
             <div class="interface">
                 <h2 class="titulo">MEUS <span>CONHECIMENTOS</span></h2>
                 <div class="flex">
@@ -112,19 +113,22 @@
                 <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
                 <div class="flex">
                     <div class="imgProject" style="background-image: url(src/images/jellyflixs.png);">
-                    <div class="overlay">Projeto Assinatura de Streaming</div></div>
+                    <div class="overlay">Projeto Assinatura de Streaming
+                        <i class="fa-brands fa-wordpress"></i>
+                        <a href="https://jellyflixs.com" target="_blank">Open Project</a>
+                    </div></div>
                     <!-- <div class="imgProject"></div> Para acrescentar mais projetos-->
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="interface">
             <div class="lineFooter">
                 <div class="flex">
                     <div class="logoFooter">
-                        <a href="#">
+                        <a href="#inicio">
                             <img src="/src/images/logoPortfolio.png" alt="Logo com o nome">
                         </a>
                     </div>
