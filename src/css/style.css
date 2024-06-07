@@ -165,6 +165,10 @@ section.conhecimentos .flex{
     color: #0867ff;
 }
 
+.conhecimentos .conhecimentosBox .fa-react{
+    color: #81E0FF;
+}
+
 
 /* Projetos */
 
@@ -369,5 +373,10 @@ footer .lineFooter p a{
 
     .lineFooter p{
         font-size: 14px;
+    }
+
+    footer .lineFooter{
+        align-items: center;
+        flex-direction: column;
     }
 }
